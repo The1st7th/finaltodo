@@ -30,3 +30,11 @@
 /Users/Guest/.Trash/todojoin/todo/obj/Debug/netcoreapp1.1/todo.AssemblyInfo.cs
 /Users/Guest/.Trash/todojoin/todo/obj/Debug/netcoreapp1.1/todo.dll
 /Users/Guest/.Trash/todojoin/todo/obj/Debug/netcoreapp1.1/todo.pdb
+/Users/Guest/Desktop/finaltodo/todo/bin/Debug/netcoreapp1.1/todo.deps.json
+/Users/Guest/Desktop/finaltodo/todo/bin/Debug/netcoreapp1.1/todo.runtimeconfig.json
+/Users/Guest/Desktop/finaltodo/todo/bin/Debug/netcoreapp1.1/todo.runtimeconfig.dev.json
+/Users/Guest/Desktop/finaltodo/todo/bin/Debug/netcoreapp1.1/todo.dll
+/Users/Guest/Desktop/finaltodo/todo/bin/Debug/netcoreapp1.1/todo.pdb
+/Users/Guest/Desktop/finaltodo/todo/obj/Debug/netcoreapp1.1/todo.AssemblyInfo.cs
+/Users/Guest/Desktop/finaltodo/todo/obj/Debug/netcoreapp1.1/todo.dll
+/Users/Guest/Desktop/finaltodo/todo/obj/Debug/netcoreapp1.1/todo.pdb

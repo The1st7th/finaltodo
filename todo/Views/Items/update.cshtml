@@ -1,0 +1,12 @@
+<form action="/update" method="post">
+<input id="new-item" name="value" type="text">
+  <select name="item">
+    @if(Model != null){
+      @foreach (var item in Model)
+      {
+        <option value = "@item.GetId()">@item.GetDescription()</option>
+      }
+      }
+    </select>
+  <button type="submit">Submit</button>
+</form>

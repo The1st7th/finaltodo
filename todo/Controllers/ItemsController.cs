@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using ToDoList.Models;
-
+using System;
 namespace ToDoList.Controllers
 {
     public class ItemsController : Controller
@@ -92,6 +92,21 @@ namespace ToDoList.Controllers
         {
           List<Item> allItems = Item.GetAll();
           return View(allItems);
+        }
+        [HttpGet("/update")]
+        public ActionResult update()
+        {
+          List<Item> allItems = Item.GetAll();
+          return View(allItems);
+        }
+        [HttpPost("/update")]
+        public ActionResult updateresult()
+        {
+          string valuename = Request.Form["value"];
+          Console.WriteLine(valuename);
+          Item.Find(int.Parse(Request.Form["item"])).UpdateDescription(valuename);
+          List<Item> allItems = Item.GetAll();
+          return View("items",allItems);
         }
 
 
